@@ -24,7 +24,18 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--cat);
+    height: 100vh;
+    overflow-y: scroll;
 }
+
+body{
+    -ms-overflow-style: none;
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }
 
 .main-screen{
     margin-top:100px;

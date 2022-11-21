@@ -30,11 +30,15 @@
 }
 
 .status-bar-main {
-    background-color: white;
+    background-color: var(--cat);
     z-index: 1;
 }
 
 .status-bar-chat {
-    background-color: #abc1d1;
+    background-color: var(--cat);
     z-index: 1;
+}
+
+.fa-battery-full {
+    color: #48D261;
 }

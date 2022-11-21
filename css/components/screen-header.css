@@ -20,7 +20,7 @@
 }
 
 .screen-header-main {
-    background-color: white;
+    background-color: var(--cat);
     z-index: 1;
 }
 
